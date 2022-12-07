@@ -1,0 +1,175 @@
+ /* My CSS custom properties */
+
+ :root {
+    --clr-primary-400:  hsl(215, 51%, 70%);
+    --clr-hover-300: hsl(178, 100%, 50%);
+
+    --clr-bg-800: hsl(217, 54%, 11%);
+    --clr-card-700: hsl(216, 50%, 16%);
+    --clr-neutral-500: hsl(215, 32%, 27%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+
+    --ff-body-outfit: 'Outfit', sans-serif;
+
+    --fw-light-300: 300;
+    --fw-regular-400: 400;
+    --fw-semiBold-600: 600;
+ }
+ 
+ /* My CSS reset */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  /* General styling */
+
+  body {
+    background-color: var(--clr-bg-800);
+    color: var(--clr-primary-400);
+    display: grid;
+    place-items: center;
+    font-size: 1.125rem;
+    font-family: var(--ff-body-outfit);
+    line-height: 1.5;
+  }
+
+  .mrg-btm {
+    margin-bottom: 1em;
+  }
+
+  hr {
+    border: none;
+    background-color: var(--clr-neutral-500);
+    height: 1px;
+  }
+
+  .main {
+    box-shadow: 0px 15px 70px 25px hsl(217deg 84% 6%);;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0 1.5em;
+  }
+
+  .main__wrapper {  
+    background-color: var(--clr-card-700);
+    padding: 1.5em 1.5em 0;
+  }
+
+  .main__img {
+    border-radius: 15px;
+  }
+
+  .main__img:hover {
+    background-color: var(--clr-hover-300);
+  }
+
+  .main__content {
+    padding: 1.25em 0;
+  }
+
+  .main__title {
+    color: var(--clr-neutral-100);
+    margin-bottom: .5em;
+    font-weight: var(--fw-semiBold-600);
+  }
+
+  .main__title:hover {
+    color: var(--clr-hover-300);
+    cursor: pointer;
+  }
+
+  .main__text {
+    font-weight: var(--fw-light-300);
+    font-size: 16px;
+  }
+
+  .flex-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ethereum {
+    color: var(--clr-hover-300);
+    display: flex;
+    gap: .5em;
+  }
+
+  .clock {
+    display: flex;
+    gap: .5em;
+  }
+
+  .ethereum-heading {
+    font-weight: var(--fw-semiBold-600);
+  }
+
+  .clock-heading {
+    font-weight: var(--fw-regular-400);
+  }
+
+  .author-img {
+    border: 1px solid var(--clr-neutral-100);
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .main__author {
+    font-size: 15px;
+    font-weight: var(--fw-light-300);
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .author-name {
+    color: var(--clr-neutral-100);
+  }
+
+  .author-name:hover {
+    color: var(--clr-hover-300);
+    cursor: pointer;
+  }
+
+  /* Media query for larger screen size */
+
+  @media (min-width: 376px) {
+
+    .mrg-btm {
+      margin-bottom: 1.25em;
+    }
+
+    .main__wrapper {
+      max-width: 350px;
+    }
+
+    .main__content {
+      padding: 1.5em 0;
+    }
+
+    .main__text {
+      font-size: 17px;
+    }
+  }
