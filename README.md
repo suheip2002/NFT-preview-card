@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -17,8 +17,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/hub/qrcode-component-xgH-dmiwQB)
-- Live Site URL:(https://suheip2002.github.io/qr-code-component/)
+- Solution URL: (https://www.frontendmentor.io/solutions/nft-preview-card-component-zL6B35lrRj)
+- Live Site URL:(https://suheip2002.github.io/NFT-preview-card/)
 
 ## My process
 
