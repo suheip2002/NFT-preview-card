@@ -66,15 +66,15 @@
   }
 
   .main {
-    box-shadow: 0px 15px 70px 25px hsl(217deg 84% 6%);;
-    border-radius: 15px;
-    overflow: hidden;
     margin: 0 1.5em;
   }
 
   .main__wrapper {  
     background-color: var(--clr-card-700);
+    box-shadow: 0px 15px 70px 25px hsl(217deg 84% 6%);
     padding: 1.5em 1.5em 0;
+    border-radius: 15px;
+    overflow: hidden;
   }
 
   .main__img {
@@ -151,7 +151,7 @@
 
   .attribution {
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     margin-top: 10px;
   }
