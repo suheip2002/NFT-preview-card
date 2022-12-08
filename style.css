@@ -81,10 +81,6 @@
     border-radius: 15px;
   }
 
-  .main__img:hover {
-    background-color: var(--clr-hover-300);
-  }
-
   .main__content {
     padding: 1.25em 0;
   }
@@ -151,6 +147,18 @@
   .author-name:hover {
     color: var(--clr-hover-300);
     cursor: pointer;
+  }
+
+  .attribution {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .attribution a {
+    text-decoration: none;
+    color: var(--clr-hover-300);
   }
 
   /* Media query for larger screen size */
